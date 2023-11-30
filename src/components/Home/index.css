@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.home-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-bg-dark {
+  background-color: black;
+}
+
+.home-bg-light {
+  background-color: white;
+}
+
+.home-responsive-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-image-url {
+  height: 150px;
+  width: 150px;
+}
+
+.home-text-dark {
+  color: #171f46;
+}
+
+.home-text-light {
+  color: white;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
